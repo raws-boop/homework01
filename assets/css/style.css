@@ -1,13 +1,15 @@
+/* /this is universally applying the style, margin, and padding to the 'boxes' in the file/ */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* //this denotes the color of the 'body' portion of the webpage*/
 body {
     background-color: #d9dcd6;
 }
 
+/*//this denotes the font color, background color, font family (in ordered of preferred system options, and a padding of 20px around the text*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +17,16 @@ body {
     color: #ffffff;
 }
 
+/* defining the size and how the text is alligned in the h1 category */
 .header h1 {
-    display: inline-block;
+    display: inline-block; 
     font-size: 48px;
 }
-
+/* defining the color of the h1 content element .seo in the header*/
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* this denotes the font size, allignment(float), font family (in ordered of preferred system options, and a padding (from the top) and margin (from the right) of the text*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -40,16 +43,16 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* adjusting the color specific to the 'a' selector */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* adjusting the size specific 'p' selector */
 p {
     font-size: 16px;
 }
-
+/* adjusting the hero class */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,12 +61,12 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* This alligns the element to the left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* This alligns the element to the right*/
 .float-right {
     float: right;
     margin-left: 25px;
@@ -74,7 +77,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/* This defines the layout, font, and color of the benefits container*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
